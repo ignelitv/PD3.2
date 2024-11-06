@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#E0E0E0</color> <!-- Pagrindinis fonas -->
+    <color name="button_background">#6200EE</color> <!-- Mygtukų fonas -->
+    <color name="button_text">#FFFFFF</color> <!-- Mygtukų tekstas -->
+    <color name="text_display">#000000</color> <!-- Teksto spalva ekrane -->
+    <color name="button_text_color">#FFFFFF</color> <!-- Mygtukų tekstų spalva -->
+    <color name="button_pressed">#3700B3</color> <!-- Spalva, kai mygtukas paspaudžiamas -->
+    <color name="button_border">#6200EE</color> <!-- Mygtuko rėmelio spalva -->
+</resources>
