@@ -1,33 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Bendrieji stiliai -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/button_background</item>
-        <item name="colorOnPrimary">@color/button_text</item>
-        <item name="colorSecondary">@color/button_background</item>
-        <item name="colorOnSecondary">@color/button_text</item>
-        <item name="android:windowBackground">@color/background</item>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Ekrano tekstas -->
-    <style name="TextDisplay" parent="TextAppearance.AppCompat.Large">
-        <item name="android:textColor">@color/text_display</item>
-        <item name="android:textSize">30sp</item>
-    </style>
-
-    <!-- Mygtukų stiliai -->
+    <!-- Button Style -->
     <style name="ButtonStyle">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:layout_columnWeight">1</item>
-        <item name="android:textColor">@color/button_text</item>
-        <item name="android:background">@color/button_background</item>
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:padding">12dp</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_marginBottom">4dp</item>
     </style>
 
-    <style name="ButtonPressedStyle">
-        <item name="android:background">@color/button_pressed</item>
+    <!-- Button for operation (like +, -, *, etc.) -->
+    <style name="ButtonStyle.Operation">
+        <item name="android:backgroundTint">@color/operationButtonBackground</item>
+        <item name="android:textColor">@color/operationButtonText</item>
     </style>
+
+    <!-- Button for numbers -->
+    <style name="ButtonStyle.Number">
+        <item name="android:backgroundTint">@color/numberButtonBackground</item>
+        <item name="android:textColor">@color/numberButtonText</item>
+    </style>
+
+    <!-- Display TextView -->
+    <style name="TextDisplay">
+        <item name="android:textColor">@color/displayTextColor</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
 </resources>

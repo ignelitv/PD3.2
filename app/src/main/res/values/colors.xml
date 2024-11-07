@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#E0E0E0</color> <!-- Pagrindinis fonas -->
-    <color name="button_background">#6200EE</color> <!-- Mygtukų fonas -->
-    <color name="button_text">#FFFFFF</color> <!-- Mygtukų tekstas -->
-    <color name="text_display">#000000</color> <!-- Teksto spalva ekrane -->
-    <color name="button_text_color">#FFFFFF</color> <!-- Mygtukų tekstų spalva -->
-    <color name="button_pressed">#3700B3</color> <!-- Spalva, kai mygtukas paspaudžiamas -->
-    <color name="button_border">#6200EE</color> <!-- Mygtuko rėmelio spalva -->
+    <!-- Main Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Violetinė -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Tamsesnė violetinė -->
+    <color name="colorAccent">#03DAC5</color> <!-- Mėlyna -->
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#6200EE</color>
+    <color name="buttonText">#FFFFFF</color> <!-- Baltas tekstas -->
+
+    <color name="operationButtonBackground">#FF9800</color> <!-- Geltona operacijų mygtukams -->
+    <color name="operationButtonText">#FFFFFF</color> <!-- Baltas tekstas operacijų mygtukams -->
+
+    <color name="numberButtonBackground">#B2B2B2</color> <!-- Pilkas skaičių mygtukams -->
+    <color name="numberButtonText">#000000</color> <!-- Juodas tekstas skaičių mygtukams -->
+
+    <!-- Display Text Color -->
+    <color name="displayTextColor">#000000</color> <!-- Juodas tekstas ekranui -->
 </resources>
